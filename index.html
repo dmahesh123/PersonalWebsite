@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, iniial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/147818b7b8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Spotlight</a></li>
+                    <li><a href="#Portfolio">Pastimes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Designer and Creator</p>
+                <h1>Hi, I am <span>Dharshini Mahesh</span><br> from San Antonio, TX</h1>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dharshini20.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Howdy! I'm a sophomore undergraduate student
+                        diving headfirst into the exciting realm of computer science.
+                        Being a tech enthusiast, I have a passion for design and creativity,
+                        always seeking out new ways to bring ideas to life.
+                        When I'm not coding away, I love embarking on thrilling
+                        adventures and exploring the world around me. I thrive on
+                        building connections and discovering unique stories.
+                        Join me on this journey of innovation and human connections!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>University of Texas at Dallas</span><br>
+                                I am currently immersed in my studies in CS with the goal of graduating in the Fall of
+                                2026. Embracing the vibrant energy of Dallas, a city brimming with excitement,
+                                I find immense joy in the contrast it provides compared to the charming allure of San
+                                Antonio. As a recipient of the Academic Excellence Scholarship,
+                                my educational journey has not only expanded my knowledge but also taught me valuable
+                                lessons about self-discovery and collaborative teamwork.</li>
+                            <li><span>Alamo Colleges</span><br>During high school, I eagerly pursued computer science
+                                coursework, dedicating my summer breaks to furthering my knowledge,
+                                while also seizing the opportunity to be a dual-enrolled student, attending both college
+                                and high school simultaneously.</li>
+                            <li><span>Ronald Reagan Highschool</span><br>I accomplished graduating Summa cum laude,
+                                garnering the title of an AP Scholar with distinction.
+                                School clubs, particularly robotics, provided the platform for me to discover my passion
+                                for computer science and design,
+                                while I enthusiastically balanced numerous extracurricular activities, a tutoring job,
+                                and my commitment as a dedicated student-athlete in tennis.</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li><span>UI/UX</span><br>My true passion lies in the realm of design, and I have
+                                wholeheartedly
+                                immersed myself in the captivating world of UI/UX and product design.
+                                Fueling this passion, I have dedicated myself to crafting visually stunning websites,
+                                designing captivating logos,
+                                and exploring various artistic mediums to bring my creative visions to life.</li>
+                            <li><span>Web/App Development</span><br>Web development captivates my interest due to the
+                                vast array of
+                                programming languages, frameworks, and tools available to construct the intricate
+                                structure, layout, and functionality of a website/app,
+                                with constant advancements and innovations keeping the field dynamic. Moreover, I have
+                                actively employed responsive design and
+                                optimization techniques to ensure optimal performance across diverse devices and
+                                platforms, and I am eager to delve into
+                                the realm of security to enhance the safety and protection of applications.</li>
+                            <li><span>AI/ML</span><br>
+                                AI/ML has become a recent and captivating interest of mine, and I eagerly pursued it
+                                through the completion of the
+                                Azure AI-900 certification. The boundless possibilities and transformative potential
+                                that AI/ML offer for the future genuinely excite me,
+                                driving my curiosity and motivation to further explore and contribute to this dynamic
+                                field!</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Sports</span><br>Sports have been a passion of mine since a young age, with tennis
+                                being a significant part of my life as I have dedicated myself to it. Additionally, my
+                                love for sports extends beyond tennis, as I thoroughly enjoy playing basketball,
+                                volleyball, spike ball, and any other activity that involves the thrill of hitting a
+                                ball.</li>
+                            <li><span>Extreme Sports</span><br>Lately, I have found myself drawn to the exhilarating
+                                world of extreme sports, seeking the adrenaline rush that activities like rock climbing
+                                and bungee jumping provide. With skydiving being the next thrilling adventure on my
+                                list, I am eagerly anticipating the heart-pounding experience it promises to deliver.
+                            </li>
+                            <li><span>Hackathons</span><br>Throughout my freshman year, I enthusiastically embraced the
+                                hackathon culture, participating in three events where I relentlessly pushed the
+                                boundaries of my technical skills. This dedication paid off when I triumphantly secured
+                                first place in one of the hackathons, solidifying my passion for innovative
+                                problem-solving and collaborative programming.</li>
+                            <li><span>Renovations</span><br>Transforming objects and spaces into their optimal versions
+                                is a true passion of mine. Whether it's painting houses, installing floorboards, or any
+                                other renovation endeavor, I derive immense satisfaction from breathing new life into
+                                things and witnessing their remarkable visual and functional evolution.</li>
+
+
+                        </ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services -->
+    <div id="services"></div>
+    <div class="container">
+        <h1 class="sub-title">Latest Achievement Spotlight!</h1>
+        <div class="services-list">
+            <div>
+                <h2>
+                    VRCarAid (Feb 2023)</h2>
+                <p> Check out me and my teams 1st place winning project, VRCarAid! This project was made for anyone who is unfamiliar with driving to first learn the basics in VR! In under 24 hours, my team and I learned 3-D modeling, virtual reality, and designing for customer satisfaction. Thanks for the Toyota Team for believing in our project and amazing insight into presenting! Click on the icon to learn more.</p>
+                <a href="https://devpost.com/software/vrcaraid"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+
+            </div>
+            <div>
+                <h2>
+                    Microsoft Azure AI-900 (May 2023)</h2>
+                <p> 
+                    To take my first steps into AI and ML, I completed the Azure AI-900 certification that has sparked an enthusiasm within me and created a desire to dive deeper into the realm of AI and uncover its vast potential, fueling my excitement to create something truly remarkable with this transformative technology. Click on the icon to learn more.                                                         </p>
+                <a href="https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/?source=recommendations"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+
+            </div>
+            
+        </div>
+        <!----------portfolio-------->
+        <div id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">Favorite Pastimes</h1>
+                <div class="work-list">
+                    <div class="work"><img src="images/webBuild.jpg">
+                        <div class="layer">
+                            <h3>Creating Websites</h3>
+                            <p>Creating websites using HTML and CSS is not only a hobby of mine but also a skill I have developed, allowing me to bring my creative ideas to life on the web. With a passion for web development, I enjoy crafting visually appealing and functional websites using foundational technologies such as HTML and CSS. If you would like to have a custom made website, click on the email icon!</p>
+                            <a href="mailto:dharshini.mahesh04@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="work"><img src="images/nails.jpg">
+                        <div class="layer">
+                            <h3>Gel-X Nails</h3>
+                            <p>
+                                I've completely fallen in love with doing gel-X nails and constantly find myself exploring new and exciting trends in the world of nail art. From funky patterns to vibrant color combos, I'm all about pushing the boundaries and turning nails into unique and mesmerizing masterpieces. Let me know if you want your nails done :)</p>
+                            <a href="mailto:dharshini.mahesh04@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="work"><img src="images/music.jpg">
+                        <div class="layer">
+                            <h3>Profesional Music Recommender</h3>
+                            <p>Extremely serious side hustle. Just kidding, music is my constant companion, and you'll rarely find me without my headphones. I have an uncanny knack for recommending songs that hit just the right spot, so hit me up if you need a musical pick-me-up or the perfect track for any occasion! Click on the icon if you want to be friends on spotify!</p>
+                            <a href="https://open.spotify.com/user/dharshini.mahesh04"><i class="fa-brands fa-spotify"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.pinterest.com/" class="btn">Click here to go to my favorite website ever!</a>
+            </div>
+        </div>
+        <!----------portfolio-------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>dharshini.mahesh04@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>210-241-0504</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/dharshini-mahesh-892820240/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/dmahesh123"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.instagram.com/dharshinimh/"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="Email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit!</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+                <div class="copyright">
+                    <p>Thanks for visiting! Icons and pictures were made with the use of <i class="Awesome"> Font
+                            Awesome</i> and <i class="Awesome">Canva</i>. Website created on July 14, 2023 </p>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <form name="submit-to-google-sheet">
+            
+        </form>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxLYDTvzG8UlEtpsF2pxlwgW4lsbgxJwWI1I56VOWGb42sp-3rqw339np9zAigRI_x7/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent succesfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
